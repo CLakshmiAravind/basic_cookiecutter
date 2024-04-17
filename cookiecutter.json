@@ -1,12 +1,6 @@
 {
-    "project_name": "Python Boilerplate",
-    "version": "0.1.0",
-    "use_pytest": "n",
     "folder_name":"",
     "file_name":"",
     "name":"Lakshmi Aravind",
     "person":"",
-    "use_pypi_deployment_with_travis": "y",
-    "create_author_file": "y",
-    "open_source_license": ["MIT", "BSD", "ISCL", "Apache Software License 2.0", "Not open source"]
 }
