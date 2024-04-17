@@ -2,6 +2,5 @@
     "folder_name":"test",
     "file_name":"dds",
     "name":"Lakshmi Aravind",
-    "person":"",
-    "setup_download_path": "{{ cookiecutter.setup_download_path }}"
+    "person":""
 }
