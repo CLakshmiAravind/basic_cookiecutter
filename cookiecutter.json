@@ -4,6 +4,6 @@
     "name":"Lakshmi Aravind",
     "person":"",
     "install_path":"./",
-    "_copy_without_render": ["init_setup.py"]
+    "_copy_without_render": ["post_gen_project.py"]
 
 }
