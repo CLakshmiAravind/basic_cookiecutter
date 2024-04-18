@@ -16,6 +16,6 @@ def run_post_gen_hook(install_path, folder_name, file_name):
 # Run the post generation hook
 run_post_gen_hook(
     '{{ cookiecutter.install_path }}',
-    '{{ cookiecutter.project_name }}',
+    '{{ cookiecutter.folder_name }}',
     '{{ cookiecutter.file_name }}'
 )
