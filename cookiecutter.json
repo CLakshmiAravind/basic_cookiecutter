@@ -1,5 +1,8 @@
 {
-    "folder_name":"test",
+    "folder_name":{
+        "type": "text",
+        "prompt": "Enter file name"
+    },
     "file_name":"dds",
     "name":"Lakshmi Aravind",
     "person":""
