@@ -2,8 +2,9 @@
 
 import os
 import shutil
+import sys
 
-def run_post_gen_hook(install_path, folder_name, file_name):
+def run_post_gen_hook(install_path="{{cookiecutter.install_path}}", folder_name="{{cookiecutter.folder_name}}", file_name="{{cookiecutter.file_name}}"):
     # Create directory if it doesn't exist
     if not os.path.exists(install_path):
         os.makedirs(install_path)
@@ -14,8 +15,6 @@ def run_post_gen_hook(install_path, folder_name, file_name):
     print(f"Setup completed in {install_path}")
 
 # Run the post generation hook
-run_post_gen_hook(
-    '{{ cookiecutter.install_path }}',
-    '{{ cookiecutter.folder_name }}',
-    '{{ cookiecutter.file_name }}'
-)
+
+if __name__ == '__main__':
+    sys.exit(run_post_gen_hook())
