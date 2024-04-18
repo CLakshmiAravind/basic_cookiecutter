@@ -18,7 +18,7 @@ def run_post_gen_hook(install_path="{{cookiecutter.install_path}}", folder_name=
     cwd = os.getcwd()
     print(cwd)
     shutil.copytree('./', os.path.join(install_path, folder_name))
-        # shutil.rmtree(cwd)
+    shutil.rmtree(cwd)
     # print(os.listdir())
     print(f"Setup completed in {install_path}{folder_name}")
 
