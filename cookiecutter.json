@@ -1,9 +1,18 @@
 {
     "folder_name":{
         "type": "text",
-        "prompt": "Enter file name"
+        "prompt": "Enter the project name"
     },
-    "file_name":"dds",
-    "name":"Lakshmi Aravind",
-    "person":""
+    "file_name":{
+        "type": "text",
+        "prompt": "Enter the project name"
+    },
+    "name":{
+        "type": "text",
+        "prompt": "Enter the project name"
+    },
+    "person":{
+        "type": "text",
+        "prompt": "Enter the project name"
+    }
 }
