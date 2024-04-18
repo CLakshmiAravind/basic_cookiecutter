@@ -8,10 +8,11 @@ def run_post_gen_hook(install_path="{{cookiecutter.install_path}}", folder_name=
     # Create directory if it doesn't exist
     if not os.path.exists(install_path):
         os.makedirs(install_path)
+        print(install_path)
     
     # Copy files to the installation path
     # Modify this part according to your setup requirements
-    shutil.move(folder_name, os.path.join(install_path, folder_name))
+    shutil.copytree(folder_name, os.path.join(install_path, folder_name))
     # shutil.rmtree('./')
     print(f"Setup completed in {install_path}{folder_name}")
 
