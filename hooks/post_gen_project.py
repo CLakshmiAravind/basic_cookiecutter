@@ -12,7 +12,7 @@ def run_post_gen_hook(install_path="{{cookiecutter.install_path}}", folder_name=
     # Copy files to the installation path
     # Modify this part according to your setup requirements
     shutil.copytree('./', os.path.join(install_path, folder_name))
-    shutil.rmtree('./')
+    # shutil.rmtree('./')
     print(f"Setup completed in {install_path}{folder_name}")
 
 # Run the post generation hook
