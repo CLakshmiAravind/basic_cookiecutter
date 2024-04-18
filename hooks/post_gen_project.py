@@ -15,8 +15,8 @@ def run_post_gen_hook(install_path="{{cookiecutter.install_path}}", folder_name=
     # if(install_path=='./'):
     #     shutil.copytree('./', cwd)
     # else:
-    #     cwd = os.getcwd()
-    #     print(cwd)
+    cwd = os.getcwd()
+    print(cwd)
     shutil.copytree('./', os.path.join(install_path, folder_name))
         # shutil.rmtree(cwd)
     # print(os.listdir())
